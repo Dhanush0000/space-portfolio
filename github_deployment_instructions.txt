@@ -1,0 +1,23 @@
+1. Build the Project:
+   - Run: npm run build.
+
+2. Export the Project:
+   - Run: npm run export.
+
+3. Create a GitHub Repository:
+   - Create a new repository on GitHub.
+
+4. Push the `out` Directory:
+   - Navigate to the `out` directory: cd out.
+   - Initialize a new Git repository: git init.
+   - Add the remote repository: git remote add origin <your-repo-url>.
+   - Stage the files: git add ..
+   - Commit the changes: git commit -m "Deploy to GitHub Pages".
+   - Push to the `gh-pages` branch: git push -u origin master:gh-pages.
+
+5. Configure GitHub Pages:
+   - Go to your repository settings on GitHub.
+   - Under the "Pages" section, select the `gh-pages` branch as the source for GitHub Pages.
+
+6. Access Your Deployed Site:
+   - Your site should be live at https://<username>.github.io/<repository-name>.

@@ -31,7 +31,7 @@ export const Encryption = () => {
             className="translate-y-5 transition-all duration-200 group-hover:translate-y-11"
           />
           <Image
-            src="/lock-main.png"
+            src="./lock-main.png"
             alt="Lock main"
             width={70}
             height={70}
