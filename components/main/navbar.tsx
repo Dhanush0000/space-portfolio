@@ -8,15 +8,27 @@ import { LINKS, NAV_LINKS, SOCIALS } from "@/constants";
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  // Corrected path for Next.js public folder
+  const resumeUrl = "/DhanushG.pdf";
+
+  // Added type annotation for the event parameter
+  const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    // Create a temporary link to trigger download
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'DhanushG.pdf'; // Filename for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-10">
       {/* Navbar Container */}
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
         {/* Logo + Name */}
-        <Link
-          href="#about-me"
-          className="flex items-center"
-        >
+        <Link href="#about-me" className="flex items-center">
           <Image
             src="/logo.png"
             alt="Logo"
@@ -25,7 +37,7 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Dhanush G</div>
         </Link>
 
         {/* Web Navbar */}
@@ -50,6 +62,15 @@ export const Navbar = () => {
             >
               Source Code
             </Link>
+
+            {/* Resume Button */}
+            <a
+              href="#"
+              onClick={handleResumeClick}
+              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+            >
+              Resume
+            </a>
           </div>
         </div>
 
@@ -100,6 +121,15 @@ export const Navbar = () => {
             >
               Source Code
             </Link>
+            
+            {/* Resume Button for Mobile */}
+            <a
+              href="#"
+              onClick={handleResumeClick}
+              className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
+            >
+              Resume
+            </a>
           </div>
 
           {/* Social Icons */}

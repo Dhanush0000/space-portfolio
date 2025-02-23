@@ -92,12 +92,12 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/_dhanush_026?igsh=MXNrZ25qYms0MjN2aw==",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+  name: "Linkedin",
+        icon: RxLinkedinLogo,
+        link: "https://www.linkedin.com/in/dhanush-g-135779242/",
   },
   {
     name: "Twitter",
@@ -259,25 +259,25 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "E-Commerce For Digital Products",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'A refreshed version of the content for your e-commerce project, styled similarly to the "DigitalHippo" example but with a unique twist and updated details. I’ve tailored it for your "E-Commerce_Digi" project while keeping the structure intact.; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://github.com/Dhanush0000/E-Commerce_Digi",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Computer Vision Project",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      'This project focuses on leveraging advanced computer vision techniques for tasks like image processing, object detection, and real-time analysis. Using tools like OpenCV and deep learning framework.',
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://github.com/Dhanush0000/Computer_vision",
   },
   {
-    title: "Space Themed Website",
+    title: "Cybersecurity Research Project",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'This project focuses on cybersecurity research, specifically in the area of social engineering and phishing awareness. AutoPhisher provides an automated toolkit designed to simulate social media phishing attacks for educational and security training purposes..',
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://github.com/Dhanush0000/autophisher",
   },
 ] as const;
 
@@ -288,17 +288,17 @@ export const FOOTER_DATA = [
       {
         name: "YouTube",
         icon: FaYoutube,
-        link: "https://youtube.com",
+        link: "https://www.youtube.com/@ADGCREATORS",
       },
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Dhanush0000",
       },
       {
         name: "Discord",
         icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://discord.gg/WTVBmJRD",
       },
     ],
   },
@@ -308,7 +308,7 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://www.instagram.com/_dhanush_026?igsh=MXNrZ25qYms0MjN2aw==",
       },
       {
         name: "Twitter",
@@ -318,7 +318,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/dhanush-g-135779242/",
       },
     ],
   },
@@ -326,19 +326,19 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Become a Subscriber",
         icon: null,
-        link: "https://youtube.com",
+        link: "https://www.youtube.com/@ADGCREATORS",
       },
       {
         name: "Learning about me",
         icon: null,
-        link: "https://example.com",
+        link: "https://www.linkedin.com/in/dhanush-g-135779242/",
       },
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:dhanushdhanu00000@gmail.com",
       },
     ],
   },
@@ -360,5 +360,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/Dhanush0000",
 };
