@@ -262,21 +262,21 @@ export const PROJECTS = [
     title: "E-Commerce For Digital Products",
     description:
       'A refreshed version of the content for your e-commerce project, styled similarly to the "DigitalHippo" example but with a unique twist and updated details. I’ve tailored it for your "E-Commerce_Digi" project while keeping the structure intact.; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
+    image: "./projects/project-1.png",
     link: "https://github.com/Dhanush0000/E-Commerce_Digi",
   },
   {
     title: "Computer Vision Project",
     description:
       'This project focuses on leveraging advanced computer vision techniques for tasks like image processing, object detection, and real-time analysis. Using tools like OpenCV and deep learning framework.',
-    image: "/projects/project-2.png",
+    image: "./projects/project-2.png",
     link: "https://github.com/Dhanush0000/Computer_vision",
   },
   {
     title: "Cybersecurity Research Project",
     description:
       'This project focuses on cybersecurity research, specifically in the area of social engineering and phishing awareness. AutoPhisher provides an automated toolkit designed to simulate social media phishing attacks for educational and security training purposes..',
-    image: "/projects/project-3.png",
+    image: "./projects/project-3.png",
     link: "https://github.com/Dhanush0000/autophisher",
   },
 ] as const;
