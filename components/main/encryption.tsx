@@ -31,7 +31,7 @@ export const Encryption = () => {
             className="translate-y-5 transition-all duration-200 group-hover:translate-y-11"
           />
           <Image
-            src="/lock-main.png"
+            src="./lock-main.png"
             alt="Lock main"
             width={70}
             height={70}
@@ -59,7 +59,7 @@ export const Encryption = () => {
           preload="false"
           className="w-full h-auto"
         >
-          <source src="/videos/encryption-bg.webm" type="video/webm" />
+          <source src="./videos/encryption-bg.webm" type="video/webm" />
         </video>
       </div>
     </div>
