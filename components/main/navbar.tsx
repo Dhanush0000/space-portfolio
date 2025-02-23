@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // Corrected path for Next.js public folder
-  const resumeUrl = "./DhanushG.pdf";
+  const resumeUrl = "/DhanushG.pdf";
 
   // Added type annotation for the event parameter
   const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -30,7 +30,7 @@ export const Navbar = () => {
         {/* Logo + Name */}
         <Link href="#about-me" className="flex items-center">
           <Image
-            src="./logo.png"
+            src="/logo.png"
             alt="Logo"
             width={70}
             height={70}
